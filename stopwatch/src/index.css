@@ -1,0 +1,112 @@
+/* Center everything in the body vertically and horizontally */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 0%);
+}
+/* Main title */
+.stopwatch-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff200e2;
+  font-family: monospace;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Main stopwatch container */
+.stopwatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid #fff300;
+  background-color: rgb(0, 0, 0);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+/* Timer display text */
+.display {
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: hsl(0, 0%, 30%);
+  text-shadow: 2px 2px 2px hsl(0, 0%, 0%, 0.75);
+  margin-bottom: 25px;
+}
+
+/* Button base style */
+.controls button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+/* Start button style */
+.start-button {
+  background: linear-gradient(135deg, #fff300, #333333);
+}
+
+/* Hover effect for start button */
+.start-button:hover {
+  background: #fff300;
+}
+
+/* Pause button style */
+.pause-button {
+  background-color: #fff300;
+}
+
+/* Hover effect for pause button */
+.pause-button:hover {
+  background: #fff300;
+}
+
+/* Reset button style */
+.reset-button {
+  background: linear-gradient(135deg, #fff300, #333333);
+}
+
+/* Hover effect for reset button */
+.reset-button:hover {
+  background: #fff300;
+}
+
+/* Lap button style */
+.lap-button {
+  background: linear-gradient(135deg, #fff300, #333333);
+}
+
+/* Hover effect for lap button */
+.lap-button:hover {
+  background: #fff300;
+}
+
+/* Container for lap times */
+.laps {
+  background: linear-gradient(135deg, #000000, #555555);
+  border: 1px solid #fff300;
+  color: #fff300;
+  border-radius: 15px;
+  margin-top: 10px;
+  font-family: monospace;
+  font-size: 1.6rem;
+  padding: 10px 20px;
+}
+
+/* Individual lap entry */
+.lap {
+  border: 1px solid #fff300;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
